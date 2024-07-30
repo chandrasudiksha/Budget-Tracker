@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffcc99;
+    border-radius: 10px;
+}
+
+h2 {
+    background-color: #3366ff;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    margin: -20px -20px 20px -20px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    margin-right: 10px;
+}
+
+.form-container input, .form-container select {
+    margin-right: 20px;
+}
+
+#addButton {
+    background-color: #3366ff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#addButton:hover {
+    background-color: #254fbd;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #3366ff;
+    color: white;
+}
+
+td {
+    background-color: #ffcc99;
+}
+
+.deleteButton {
+    color: red;
+    cursor: pointer;
+}
